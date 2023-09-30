@@ -40,12 +40,12 @@ if(isset($_POST['upd_doct']))
         echo '<script type="text/javascript">
 
 swal({
-    title: "Good job!",
-    text: "You clicked the button!",
+    title: "Actualizado Correctamente!",
+    text: ¡Haz click en aceptar!,
     icon: "success",
     buttons: {
         confirm: {
-            text: "Confirm Me",
+            text: "Aceptar,
             value: true,
             visible: true,
             className: "btn btn-success",

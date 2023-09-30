@@ -25,12 +25,12 @@ if(isset($_POST['add_prof']))
         echo '<script type="text/javascript">
 
 swal({
-    title: "Good job!",
-    text: "You clicked the button!",
+    title: "Agregado Correctamente!",
+    text: ¡Haz click en aceptar!,
     icon: "success",
     buttons: {
         confirm: {
-            text: "Confirm Me",
+            text: "Aceptar,
             value: true,
             visible: true,
             className: "btn btn-success",

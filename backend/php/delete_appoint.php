@@ -21,12 +21,12 @@ if(isset($_POST['delete_appoin']))
         echo '<script type="text/javascript">
 
 swal({
-    title: "Good job!",
-    text: "You clicked the button!",
+    title: "Eliminado Correctamente!",
+    text: ¡Haz click en aceptar!,
     icon: "success",
     buttons: {
         confirm: {
-            text: "Confirm Me",
+            text: "Eliminar,
             value: true,
             visible: true,
             className: "btn btn-success",
