@@ -29,11 +29,11 @@ if(isset($_POST['upd_user']))
 
 swal({
     title: "Actualizado Correctamente!",
-    text: ¡Haz click en aceptar!,
+    text: ¡Haz click en aceptActualizarar!,
     icon: "success",
     buttons: {
         confirm: {
-            text: "Aceptar,
+            text: "Actualizar,
             value: true,
             visible: true,
             className: "btn btn-success",

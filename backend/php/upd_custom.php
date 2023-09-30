@@ -35,11 +35,11 @@ if(isset($_POST['upd_custome']))
 
 swal({
     title: "Actualizado Correctamente!",
-    text: ¡Haz click en aceptar!,
+    text: ¡Haz click en Actualizar!,
     icon: "success",
     buttons: {
         confirm: {
-            text: "Aceptar,
+            text: "Actualizar,
 
             visible: true,
             className: "btn btn-success",

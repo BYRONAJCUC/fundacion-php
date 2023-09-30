@@ -15,7 +15,7 @@ $count = $sql -> rowCount();
 echo '<script type="text/javascript">
 
 swal({
-    title: "Eliminado Correctamente!",
+    title: "Eliminado Eliminar!",
     text: ¡Haz click en aceptar!,
     icon: "success",
     buttons: {

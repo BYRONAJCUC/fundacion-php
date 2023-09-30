@@ -22,7 +22,7 @@ if(isset($_POST['delete_appoin']))
 
 swal({
     title: "Eliminado Correctamente!",
-    text: ¡Haz click en aceptar!,
+    text: ¡Haz click en Eliminar!,
     icon: "success",
     buttons: {
         confirm: {

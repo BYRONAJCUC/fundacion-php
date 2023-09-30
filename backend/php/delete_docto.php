@@ -16,7 +16,7 @@ echo '<script type="text/javascript">
 
 swal({
     title: "Eliminado Correctamente!",
-    text: ¡Haz click en aceptar!,
+    text: ¡Haz click en Eliminar!,
     icon: "success",
     buttons: {
         confirm: {
