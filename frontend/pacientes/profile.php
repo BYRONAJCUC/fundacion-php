@@ -343,11 +343,11 @@ if($sentencia){
      <small id="emailHelp2" class="form-text text-muted">Apellido del paciente.</small>   
   </div>  
 
-  <div class="col-md-6 col-lg-6">
+  <!-- <div class="col-md-6 col-lg-6">
      <label for="email2">Seguro del paciente</label>
      <input type="text" required id="apellidoPaterno" class="form-control" onkeypress="return soloLetras(event)" name="apepac" value="<?php echo $d->seguro  ?>" style="color: black;" readonly placeholder="Enter paciente">
      <small id="emailHelp2" class="form-text text-muted">Seguro del paciente.</small>   
-  </div>                    
+  </div>                     -->
 </div>
 
 <div class="row">

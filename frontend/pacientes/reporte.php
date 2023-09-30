@@ -56,7 +56,7 @@ $pdf->Cell(25, 12, utf8_decode('#'),1,0,'C',1);
 $pdf->Cell(35, 12, utf8_decode('DPI'),1,0,'C',1);
 $pdf->Cell(105, 12, utf8_decode('Paciente'),1,0,'C',1);
 $pdf->Cell(35, 12, utf8_decode('Teléfono'),1,0,'C',1);
-$pdf->Cell(35, 12, utf8_decode('Seguro'),1,0,'C',1);
+// $pdf->Cell(35, 12, utf8_decode('Seguro'),1,0,'C',1);
 $pdf->Cell(35, 12, utf8_decode('Género'),1,1,'C',1);
 
 
@@ -80,7 +80,7 @@ $pdf->Cell(25, 8, utf8_decode($row['codpaci']),'B',0,'C',1);
 $pdf->Cell(35, 8, utf8_decode($row['dnipa']),'B',0,'C',1);
 $pdf->Cell(105, 8, utf8_decode($row['nombrep']),'B',0,'C',1);
 $pdf->Cell(35, 8, utf8_decode($row['tele']),'B',0,'C',1);
-$pdf->Cell(35, 8, utf8_decode($row['seguro']),'B',0,'C',1);
+// $pdf->Cell(35, 8, utf8_decode($row['seguro']),'B',0,'C',1);
 $pdf->Cell(35, 8, utf8_decode($row['sexo']),'B',1,'C',1);
   
     /*$pdf->Cell(25,9, $row['status'], 0 ,1, 'C',1);*/

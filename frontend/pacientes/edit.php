@@ -354,7 +354,7 @@ if($sentencia){
 
 
 <div class="row">
-  <div class="col-md-6 col-lg-6">
+  <!-- <div class="col-md-6 col-lg-6">
      <label for="email2">Seguro del paciente</label>
      <select class="form-control" name="segpa" required>
           <option value="<?php echo $d->seguro  ?>"><?php echo $d->seguro  ?></option>
@@ -363,7 +363,7 @@ if($sentencia){
                 <option value="No">No</option>  
             </select>
             <small id="emailHelp2" class="form-text text-muted">Seguro del paciente.</small> 
-  </div>  
+  </div>   -->
 
   <div class="col-md-6 col-lg-6">
      <label for="email2">Teléfono del paciente</label>

@@ -47,15 +47,15 @@
 
 
 <div class="row">
-<div class="col-md-6">
-    <div class="form-group form-group-default">
-        <label>Seguro</label>
-            <select class="form-control" name="segpa" required>
-                <option value="Si">Si</option>
-                <option value="No">No</option>  
-            </select>
-    </div>
-</div>
+    <!-- <div class="col-md-6">
+        <div class="form-group form-group-default">
+            <label>Seguro</label>
+                <select class="form-control" name="segpa" required>
+                    <option value="Si">Si</option>
+                    <option value="No">No</option>  
+                </select>
+        </div>
+    </div> -->
 
         <div class="col-sm-6">
             <div class="form-group form-group-default">

@@ -331,7 +331,7 @@ if($sentencia){
 
                  <div class="card-action">
                          <button type="submit" name="delet_user" class="btn btn-success">Eliminar</button>
-                         <button class="btn btn-danger">Cancelar</button>
+                         <a href="../usuarios/mostrar.php" class="btn btn-danger"> Cancelar </a>
                     </div>
                </form>
                 <?php endforeach; ?>
