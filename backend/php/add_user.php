@@ -60,18 +60,20 @@ $stmt->bindParam(':cargo',$cargo);
 
 swal({
     title: "Agregado Correctamente!",
-    text: ¡Haz click en aceptar!,
+    text: "¡Haz click en aceptar!",
     icon: "success",
     buttons: {
         confirm: {
-            text: "Aceptar,
+            text: "Aceptar",
             value: true,
             visible: true,
             className: "btn btn-success",
             closeModal: true
         }
     }
-});
+}).then((result) => {
+    window.location.replace("../../frontend/usuarios/mostrar.php");
+  });
 
         </script>';
    }

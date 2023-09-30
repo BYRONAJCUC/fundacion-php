@@ -31,11 +31,11 @@ if(isset($_POST['upd_appoi']))
 
 swal({
     title: "Actualizado Correctamente!",
-    text: ¡Haz click en aceptar!,
+    text: "¡Haz click en aceptar!",
     icon: "success",
     buttons: {
         confirm: {
-            text: "Aceptar,
+            text: "Aceptar",
 
             value: true,
             visible: true,
@@ -43,7 +43,9 @@ swal({
             closeModal: true
         }
     }
-});
+}).then((result) => {
+    window.location.replace("../../frontend/citas/mostrar.php");
+  });
 
         </script>';
 

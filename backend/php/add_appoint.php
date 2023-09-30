@@ -67,7 +67,7 @@ $stmt->bindParam(':codespe',$codespe);
 
 swal({
     title: "Agregado Correctamente!",
-    text: ¡Haz click en aceptar!,
+    text: "¡Haz click en aceptar!",
     icon: "success",
     buttons: {
         confirm: {
@@ -78,7 +78,9 @@ swal({
             closeModal: true
         }
     }
-});
+}).then((result) => {
+    window.location.replace("../../frontend/citas/mostrar.php");
+  });
 
         </script>';
    }

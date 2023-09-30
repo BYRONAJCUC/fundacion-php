@@ -16,18 +16,20 @@ echo '<script type="text/javascript">
 
 swal({
     title: "Eliminado Correctamente!",
-    text: ¡Haz click en aceptar!,
+    text: "¡Haz click en aceptar!",
     icon: "success",
     buttons: {
         confirm: {
-            text: "Eliminar,
+            text: "Eliminar",
             value: true,
             visible: true,
             className: "btn btn-success",
             closeModal: true
         }
     }
-});
+}).then((result) => {
+    window.location.replace("../../frontend/medicos/mostrar.php");
+  });
 
         </script>';
 

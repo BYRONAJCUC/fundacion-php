@@ -330,7 +330,7 @@ if($sentencia){
                  </div> 
                  <div class="card-action">
                          <button type="submit" name="upd_speciality" class="btn btn-success">Agregar</button>
-                         <button class="btn btn-danger">Cancelar</button>
+                         <a href="../especialidad/mostrar.php" class="btn btn-danger"> Cancelar </a>
                     </div>
                </form>
                 <?php endforeach; ?>

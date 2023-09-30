@@ -423,7 +423,7 @@ if($sentencia){
 
 <div class="card-action">
      <button type="submit" name="upd_doct" class="btn btn-success">Agregar</button>
-     <button class="btn btn-danger">Cancelar</button>
+     <a href="../medicos/mostrar.php" class="btn btn-danger"> Cancelar </a>
 </div>
 </form>
                 <?php endforeach; ?>

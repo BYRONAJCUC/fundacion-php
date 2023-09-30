@@ -22,18 +22,20 @@ if(isset($_POST['delete_appoin']))
 
 swal({
     title: "Eliminado Correctamente!",
-    text: ¡Haz click en aceptar!,
+    text: "¡Haz click en aceptar!",
     icon: "success",
     buttons: {
         confirm: {
-            text: "Eliminar,
+            text: "Eliminar",
             value: true,
             visible: true,
             className: "btn btn-success",
             closeModal: true
         }
     }
-});
+}).then((result) => {
+    window.location.replace("../../frontend/citas/mostrar.php");
+  });
 
         </script>';
 

@@ -48,7 +48,7 @@
         <div class="layout-wrapper landing">
             <nav class="navbar navbar-expand-lg navbar-landing navbar-light fixed-top" id="navbar">
                 <div class="container">
-                    <a class="navbar-brand" href="{{url('/index')}}">
+                    <a class="navbar-brand" href="#">
                         <img src="public/assets/images/logo.png" class="card-logo card-logo-dark" alt="logo dark"
                             height="50">
                         <img src="public/assets/images/logo.png" class="card-logo card-logo-light" alt="logo light"
@@ -69,7 +69,10 @@
                                 <a class="nav-link" href="#nosotros">SOBRE NOSOTROS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#servicio">PRODUCTOS</a>
+                                <a class="nav-link" href="#servicio">SERVICIOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#producto">PRODUCTOS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contacto">CONTACTO</a>
@@ -258,8 +261,128 @@
                 </div><!-- end container -->
             </section><!-- end wallet -->
 
+            <section class="section" id="servicio">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="text-center mb-3 mt-3">
+                                <h2 class="mb-3 fw-semibold lh-base">SERVICIOS</h2>
+                                <p class="text-muted">  
+                                    Contamos con sistemas de evaluación computarizada y tratamientos visuales.
+                                </p> 
+                            </div>
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+
+                    <div class="row g-4">
+                        <section class="section">
+                            <div class="container">
+                                <div class="row align-items-center gy-4">
+                                    <div class="col-lg-6 order-2 order-lg-1 ">
+                                        <div class="text-muted">
+                                            <!-- <h5 class="fs-12 text-uppercase text-success">Exámenes visuales</h5> -->
+                                            <div class="d-flex align-items-center mb-3" style="margin-left: 15%">
+                                                <div class="flex-shrink-0 me-2">
+                                                    <div class="avatar-xs icon-effect">
+                                                        <div
+                                                            class="avatar-title bg-transparent text-success rounded-circle h2">
+                                                            <i class="ri-check-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class=" align-items-center">
+                                                    <p class="mb-0 text-uppercase text-success  " style="
+                                                    border-bottom-style: double;
+                                                    border-bottom-width: 3px;  
+                                                    border-bottom-color: #0AB39C;">EXÁMENES VISUALES</p>
+                                                </div>
+                                            </div>
+                                            <!-- <p class="mb-4 ff-secondary">
+                                                “Mejorar la calidad de vida de las personas no importando el estatus social, mediante atención medica profesional y confiable”
+                                            </p> -->
+                                        </div>
+                                    </div> <!-- end col -->
+                                    <div class="col-lg-6 col-sm-7 col-10 ms-auto order-1 order-lg-2">
+                                        <div     >
+                                            <img style="box-shadow: 4px 4px 9px #1d1d1d;" src="public/assets/images/img/img9.jpg"  alt=""  width="80%" height="240" class="rounded">
+                                        </div>
+                                    </div>
+                                </div> <!-- end row -->
+
+                                <div class="row align-items-center mt-3 pt-lg-5 gy-4">
+                                    <div class="col-lg-6 col-sm-7 col-10 mx-auto text-end">
+                                        <div>
+                                            <img style="box-shadow: 4px 4px 9px #1d1d1d;" src="public/assets/images/img/img10.jpg" alt="" width="80%" height="240" class="  rounded">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="text-muted ps-lg-5">
+                                            <!-- <h5 class="fs-12 text-uppercase text-success">CATARATAS</h5> -->
+                                            <div class="d-flex align-items-center mb-3">
+                                                <div class="flex-shrink-0 me-2">
+                                                    <div class="avatar-xs icon-effect">
+                                                        <div
+                                                            class="avatar-title bg-transparent text-success rounded-circle h2">
+                                                            <i class="ri-check-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <p class="mb-0 text-uppercase text-success" style=" 
+                                                        border-bottom-style: double;
+                                                        border-bottom-width: 3px;  
+                                                        border-bottom-color: #0AB39C;">CIRUGÍA PARA CATARATAS:</p>
+                                                    <!-- <p class="mb-0 text-uppercase text-success text-decoration-underline">VISION:</p> -->
+                                                </div>
+                                            </div>
+                                            <!-- <h4 class="mb-3">Well Documented</h4> -->
+                                            <!-- <p class="mb-4 ff-secondary">
+                                            " Ser una Fundación moderna, segura, accesible para todos los Guatemaltecos. Brindando a nuestros pacientes la mejor cobertura en salud con calidad y compromiso humando garantizado.
+                                            "
+                                            </p> -->
+                                        </div>
+                                    </div> <!-- end col -->
+                                </div> <!-- end row --> 
+
+                                <div class="row align-items-center gy-4">
+                                    <div class="col-lg-6 order-2 order-lg-1 ">
+                                        <div class="text-muted">
+                                            <!-- <h5 class="fs-12 text-uppercase text-success">AUCOMA</h5> -->
+                                            <div class="d-flex align-items-center mb-3" style="margin-left: 15%">
+                                                <div class="flex-shrink-0 me-2">
+                                                    <div class="avatar-xs icon-effect">
+                                                        <div
+                                                            class="avatar-title bg-transparent text-success rounded-circle h2">
+                                                            <i class="ri-check-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class=" ">
+                                                    <p class="mb-0 text-uppercase text-success  " style=" 
+                                                    border-bottom-style: double;
+                                                    border-bottom-width: 3px;  
+                                                    border-bottom-color: #0AB39C;">CIRUGÍA PARA GI AUCOMA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end col -->
+                                    <div class="col-lg-6 col-sm-7 col-10 ms-auto order-1 order-lg-2">
+                                        <div     >
+                                            <img style="box-shadow: 4px 4px 9px #1d1d1d;" src="public/assets/images/img/img11.jpg"  alt=""  width="80%" height="240" class="rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end row -->
+                            </div>
+                            <!-- end container -->
+                        </section>
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </section><!-- end wallet -->
+
             <!-- start marketplace -->
-            <section class="section bg-light" id="servicio">
+            <section class="section bg-light" id="producto">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
